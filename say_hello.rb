@@ -1,11 +1,7 @@
 # Build your say_hello method here
 
-#puts "Please enter your name: "
-#your_name = gets.chomp.capitalize
-#my_name = gets.chomp
-
-def say_hello (your_name, my_name = "Neath")
-  puts "Hello, #{your_name}!I'm #{my_name}"
+def say_hello (your_name = "Ruby Programmer")
+  puts "Hello, #{your_name}!"
 end
 
-say_hello("Nimisha", "Leaora")
+say_hello("Karlie Kloss")
