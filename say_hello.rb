@@ -1,8 +1,8 @@
 # Build your say_hello method here
 
 #puts "Please enter your name: "
-your_name = gets.chomp
-my_name = gets.chomp
+your_name = gets.chomp.capitalize
+my_name = gets.chomp.capitalize
 
 def say_hello (your_name, my_name)
   puts "Hello, #{your_name}!I'm #{my_name}"
